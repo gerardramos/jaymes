@@ -1,0 +1,196 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.vert-text {
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: center;
+  padding-bottom:100px;
+}
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1000;
+}
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+/* Full Page Image Header Area */
+.header-nav img {
+  width: 100%;
+  position: relative;
+}
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../img/jb-2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Intro */
+
+.intro {
+  padding: 50px 0;
+  background:#000000;
+}
+
+/* Services */
+
+.services {
+  background: #333333;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+/* Callout */
+
+.callout {
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(../img/collage.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Portfolio */
+
+.portfolio {
+  padding: 50px 0;
+}
+
+.portfolio-item {
+  margin-bottom: 25px;
+}
+
+.img-portfolio {
+  margin: 0 auto;
+}
+
+
+/* Call to Action */
+
+.contact {
+  color: #ffffff;
+  background: #333333;
+  padding: 50px 0;
+}
+
+.ccontact .btn {
+  margin: 10px;
+}
+.contact a, footer a {
+  color:#999999;
+}
+.contact a:hover, footer a:hover {
+  text-decoration:none;
+  color:#111111;
+}
+
+
+
+/* Gerard Tweaks */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  background:transparent;
+  z-index:100;
+  border:none;
+  padding:0;
+}
+
+.navbar {
+  margin-bottom:0;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: #000000;
+  color:#fffbe5;
+}
+
+.navbar-default {
+  background:transparent;
+  border:0;
+
+}
+
+.navbar {
+  min-height:25px;
+}
+
+.navbar-nav.nav-justified > li{
+    float:none;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Footer */
+
+footer {
+  padding: 100px 0;
+}
+
+.top-scroll {
+  margin-top: 50px;
+}
+
+.top-scroll a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i.scroll {
+  color: #333333;
+}
+
+i.scroll:hover {
+  color: #0a5175;
+}
+/* Responsive */
+
+@media (max-width: 768px) {
+	
+  .header {
+	background: url(../img/IMG_1157.jpg) no-repeat center center scroll; 
+  }
+
+  .callout {
+	background: url(../img/IMG_0055.jpg) no-repeat center center scroll; 
+  }
+
+  .map {
+	height: 75%;
+  }
+
+}

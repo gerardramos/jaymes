@@ -4,9 +4,13 @@ html,
 body {
   height: 100%;
   width: 100%;
+  font-family: helvetica neue, helvetica;
+  background:#000;
 }
 
-
+.navbar-brand {
+  display:none;
+}
 .vert-text {
   display: table-cell;
   vertical-align: bottom;
@@ -37,7 +41,7 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/jb-4.png) no-repeat center center fixed; 
+  background: url(../img/jb-4.png) no-repeat center center fixed #000000; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -160,7 +164,11 @@ body {
 footer {
   padding: 100px 0;
 }
-
+.container {
+  width:100%;
+  margin:0;
+  padding:0;
+}
 .top-scroll {
   margin-top: 50px;
 }
@@ -180,17 +188,26 @@ i.scroll:hover {
 /* Responsive */
 
 @media (max-width: 768px) {
-	
+	.navbar-brand {
+    display:block;
+  }
+  .navbar-header {
+    background:#000;
+    font-weight: bold;
+  }
+  .navbar-header a.navbar-brand {
+    color:#fff;
+
+  }
+  .header-nav {
+    display:none;
+  }
   .header {
-	background: url(../img/IMG_1157.jpg) no-repeat center center scroll; 
+	background: url(../img/jb-4-mobile.png) no-repeat center center scroll; 
   }
 
   .callout {
-	background: url(../img/IMG_0055.jpg) no-repeat center center scroll; 
-  }
-
-  .map {
-	height: 75%;
+	background: url(../img/collage-mobile.png) no-repeat center center scroll; 
   }
 
 }

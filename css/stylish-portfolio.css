@@ -37,7 +37,7 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/jb-2.png) no-repeat center center fixed; 
+  background: url(../img/jb-2.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -66,7 +66,7 @@ body {
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/collage.png) no-repeat center center fixed; 
+  background: url(../img/collage.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -78,7 +78,9 @@ body {
 .portfolio {
   padding: 50px 0;
 }
-
+.preview img {
+  width: 100%;
+}
 .portfolio-item {
   margin-bottom: 25px;
 }
@@ -86,6 +88,8 @@ body {
 .img-portfolio {
   margin: 0 auto;
 }
+
+/* Preview */
 
 
 /* Call to Action */
@@ -145,7 +149,7 @@ body {
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
- 
+
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -180,13 +184,13 @@ i.scroll:hover {
 /* Responsive */
 
 @media (max-width: 768px) {
-	
+
   .header {
-	background: url(../img/IMG_1157.jpg) no-repeat center center scroll; 
+	background: url(../img/IMG_1157.jpg) no-repeat center center scroll;
   }
 
   .callout {
-	background: url(../img/IMG_0055.jpg) no-repeat center center scroll; 
+	background: url(../img/IMG_0055.jpg) no-repeat center center scroll;
   }
 
   .map {

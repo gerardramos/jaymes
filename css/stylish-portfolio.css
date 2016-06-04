@@ -203,11 +203,11 @@ i.scroll:hover {
     display:none;
   }
   .header {
-	background: url(../img/jb-4-mobile.png) no-repeat center center scroll; 
+	background: url(/img/jb-4-mobile.png) no-repeat center center scroll; 
   }
 
   .callout {
-	background: url(../img/collage-mobile.jpg) no-repeat center center scroll; 
+	background: url(/img/collage-mobile.jpg) no-repeat center center scroll; 
   }
 
 }

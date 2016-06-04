@@ -1,9 +1,6 @@
-This is a site for my Uncle Arnie's Jazz Band
+This is a site for Jaymes Bullet
 
-Checkout http://startbootstrap.com/stylish-portfolio for a quick way to get started with a one page bootstrap template or forks this.
-
-
-Copyright 2014 Arnie's Jazz Band
+Copyright 2014 Jaymes Bullet
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
